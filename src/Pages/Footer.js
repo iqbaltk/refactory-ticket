@@ -7,20 +7,20 @@ import Profile from "../Assets/ic_profile.png";
 
 export default function Footer() {
   return (
-    <div class="flex justify-between px-8 py-2">
-      <button class="hover:bg-orange-100">
+    <div class="flex justify-between min-w-max  px-8 py-2">
+      <button class="hover:bg-orange-100 px-6">
         <img src={lobby} alt="lobby" />
       </button>
-      <button class="hover:bg-orange-100">
+      <button class="hover:bg-orange-100 px-6">
         <img src={Chat} alt="chat" />
       </button>
-      <button class="hover:bg-orange-100">
+      <button class="hover:bg-orange-100 px-6">
         <img src={Assignment} alt="assigment" />
       </button>
-      <button class="hover:bg-orange-100">
+      <button class="hover:bg-orange-100 px-6">
         <img src={Rangking} alt="rangking" />
       </button>
-      <button class="hover:bg-orange-100">
+      <button class="hover:bg-orange-100 px-6">
         <img src={Profile} alt="profile" />
       </button>
     </div>

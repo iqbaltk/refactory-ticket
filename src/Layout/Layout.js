@@ -6,7 +6,7 @@ import Content from "../Pages/Content";
 
 export default function Layout() {
   return (
-    <div className="flex flex-col h-screen mx-96 justify-between border border-gray-100">
+    <div className="flex flex-col h-screen mx-96 min-w-fit justify-between border border-gray-100">
       <Header />
       <Content />
       <Footer />

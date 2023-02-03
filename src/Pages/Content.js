@@ -1,5 +1,10 @@
 import React from "react";
+import Card from "../Components/Card";
 
-export default function Footer() {
-  return <div class="bg-blue-400">Progress content</div>;
+export default function Content() {
+  return (
+    <div class="min-w-full ">
+      <Card/>
+      </div>
+    )
 }
